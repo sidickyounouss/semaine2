@@ -1,0 +1,24 @@
+/* height pour la largeur et width pour la hauteur*/
+.carre1{
+    height: 150px;
+    width: 150px;
+    background-color: teal;
+}
+.carre2{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+}
+.carre3{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+}
+.carre4{
+    height: 150px;
+    width: 150px;
+    background-color: pink;
+}
+p{
+    background-color: royalblue;
+}

@@ -1,0 +1,27 @@
+#block1 {
+    border: 3px solid black;
+    width: 200px;
+    width: 180px;
+    height: 100px;
+}
+
+#block2 {
+    border: 3px solid red;
+    width: 200px;
+    width: 180px;
+    height: 100px;
+    /* position: relative;
+    top: -20px; /*
+
+    @@ -17,8 +17,21 @@ 
+    
+    #block3 {
+        border: 3px solid black;
+        width: 200px;
+        width: 180px;
+        height: 100px;
+        positiion: relative;
+        left: 400px;
+
+}
+

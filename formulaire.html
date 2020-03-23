@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--la balise permet de declarer un formulaire, j'ai ajouté un label pour le titre-->
+    
+<form>
+    <label for="nom">Nom</label><br>
+    <input type="text" id="nom" name="nom" placeholder="mettez votre nom"><br>
+    <label for="mail">Mail</label><br>
+    <input type="mail" id="mail" name="mail" placeholder="mettez votre mail"><br>
+    <label for="password">Mot de passe</label><br>
+    <input type="password" id="password" name="password" placeholder="mettez votre mot passe"><br>
+    <label for="message">message</label><br>
+    <textarea name="message" id="message" cols="60" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia delectus nobis modi accusamus eos voluptate maxime eius expedita quis tempore cum ex veniam, officia eveniet, necessitatibus nam ipsa voluptatum quod.</textarea> <br>
+</form>
+    <h1>SELECTION DES PLATS PREFERER</h1> <br>
+    <select>
+    <option>COUSCOUS</Option>
+    <option>POULET YASSA</Option>
+    <option>TAJINE</Option>
+    <option>TACOS</Option>  
+    <option>POISSON</Option>
+    <option>RIZ</Option>
+    <option>STEAK</Option> 
+    <option>KEBAB</Option>
+    </select><br>
+
+
+    <br>
+    <fieldset>
+        <ul>
+            <li>
+                <label for="italie">italie</label>
+                <input type="checkbox" id="italie"name="italie" value="italie">
+            </li>
+            <li>
+                <label for="france">france</label>
+                <input type="checkbox" id="france"name="france" value="france">
+            </li>
+            <li>
+                <label for="senegal">senegal</label>
+                <input type="checkbox" id="senegal"name="senegal" value="senegal">
+            </li>
+            <li>
+            <label for="japon">japon</label>
+                <input type="checkbox" id="japon"name="japon" value="japon">
+            </li>  
+            <li>
+                <label for="niger">niger</label>
+                <input type="checkbox" id="niger"name="niger" value="niger">
+            </li>
+            <li>
+                <label for="centrafrique">centrafrique</label>
+                <input type="checkbox" id="centrafrique"name="centrafrique" value="centrafrique">  
+            </li>
+        </ul>
+
+    </fieldset> <br>
+
+    <fieldset>
+        <legend>pays</legend>
+
+        <input type="radio" id="japon">
+        <label for="japon">japon</label>
+
+        <input type="radio" id="chine">
+        <label for="chine">chine</label>
+
+        <input type="radio" id="france">
+        <label for="france">france</label>
+        <br>
+
+
+    </fieldset>
+
+
+
+</body>
+</html>
